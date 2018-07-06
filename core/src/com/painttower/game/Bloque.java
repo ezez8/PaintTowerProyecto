@@ -124,4 +124,5 @@ public class Bloque {
         for (Forma f:formas)
             f.setTex(tex);
     }
+
 }

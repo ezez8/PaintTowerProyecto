@@ -27,6 +27,7 @@ public class Partida extends Escena {
     private Forma rectangulo;
 
     private Contador contador;
+    Texture tex;
 
     boolean b1;
 

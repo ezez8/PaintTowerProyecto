@@ -20,13 +20,6 @@ public abstract class Forma {
         this.cuerpo = cuerpo;
     }
 
-    public Forma(float x, float y, Pintor pintor){
-        this.x = x;
-        this.y = y;
-        this.pintor = pintor;
-        pintor.setPosicion(x,y);
-    }
-
     public abstract void pintar(float x,float y);
 
     public void delete(World world){

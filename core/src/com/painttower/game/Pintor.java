@@ -29,6 +29,7 @@ public class Pintor {
     }
 
     public void setTex(Texture tex) {
+        this.tex.dispose();
         this.tex = tex;
     }
 
